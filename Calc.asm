@@ -151,7 +151,6 @@
 					j getOut3
 				getOut3:
 					jal setToZero
-					jal setToZero
 					li $v0, 51
 					la $a0, message10
 					syscall
